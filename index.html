@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>voson</title>
+
+	
+		
+	<script src="modelos/modelo_voson.js"></script>
+	<script src="modelos/modelo_infinity.js"></script>
+	<script src="modelos/modelo_oculus.js"></script>
+	<script src="modelos/modelo_ondas.js"></script>
+	<script src="modelos/modelo_robot.js"></script>
+	<script src="modelos/modelo_dinosaurio.js"></script>
+	<script src="modelos/modelo_ondas.js"></script>
+	<script src="https://metano-dev.github.io/website_vosonengine/script/importar.js"></script>
+	<script src="https://metano-dev.github.io/website_vosonengine/script/imagenes.js"></script>
+	<script src="https://metano-dev.github.io/website_vosonengine/script/clases.js"></script>
+  	<script src="script/editor.js"></script>
+	<script src="https://metano-dev.github.io/website_vosonengine/script/variables.js"></script>
+	<script src="https://metano-dev.github.io/website_vosonengine/script/movimiento.js"></script>
+	<script src="https://metano-dev.github.io/website_vosonengine/script/biblioteca.js"></script>
+	<script src="https://metano-dev.github.io/website_vosonengine/script/LIB_metano.js"></script>
+	<script src="https://metano-dev.github.io/website_vosonengine/script/menu.js"></script>
+	<script src="https://metano-dev.github.io/website_vosonengine/script/apartados.js"></script>
+	<script src="https://metano-dev.github.io/website_vosonengine/script/paginas.js"></script>
+	<script src="https://metano-dev.github.io/website_vosonengine/script/eventos.js"></script>
+	<script src="https://metano-dev.github.io/website_vosonengine/script/fuentes.js"></script>
+	<script src="https://metano-dev.github.io/website_vosonengine/script/textos.js"></script>
+	<script src="https://metano-dev.github.io/website_vosonengine/script/objetos.js"></script>
+	<script src="https://metano-dev.github.io/website_vosonengine/script/bucle.js"></script>
+	<script src="https://metano-dev.github.io/website_vosonengine/script/iniciar.js"></script>
+
+</head>
+<body onload="iniciar();" width="100%" height="100%" style="
+overflow:hidden;
+margin:0px;" >
+	<div id="fondo" width="512" height="512" style="
+		background-color:rgb(255, 255, 255);
+		position:fixed;
+		top:0px;
+		left:0px;
+		justify-content: center;
+		text-align:center;
+		z-index:-4;
+		">
+	</div>
+	<canvas id="lienzo" width="512" height="512" style="
+		top:0px;
+		left:0px;
+		position: fixed;
+		background-color:transparent;
+		z-index:-2;
+		">
+	</canvas>
+	<iframe id="ventana" title="vimeo-player" src="" frameborder="0" allow="autoplay" style="
+		background-color:rgba(255, 255, 255,0);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		position:fixed;
+		margin:0px;
+		top:-5px;
+		left:-5px;
+		right:0px;
+		bottom:0px;
+		justify-content: center;
+		text-align:center;
+		z-index:-3;
+		">
+	</iframe>
+</body>
+</html>
